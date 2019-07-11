@@ -14,7 +14,7 @@ Crie uma pasta com um nome qualquer aonde desejar. Com o composer e git devidame
 
  Clonar projeto:
  
-`git clone https://dosantosbjj/teste-prodigious.git`
+`git clone https://dosantosbjj/teste-back-prodigious.git`
 
 
  Instalar projeto e suas dependências: 
