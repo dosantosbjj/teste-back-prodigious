@@ -26,10 +26,10 @@
             <form action="{{ route('users.destroy', $usuario->id)}}" class="inline" method="post">
                 {{ csrf_field() }}
                 {{ method_field('DELETE')}}
-                <button type="submit" class="btn btn-danger"
+                <button type="submit" class="btn btn-danger" data-toggle="tooltip" data-placement="top" title="Excluir usuário"
                 onclick=" return confirm('Tem certeza que deseja remover o usuário?')"><i class="fas fa-user-minus"></i></button>
             </form>
-            <a href="{{ route('users.edit', $usuario->id) }}" class="btn btn-success"><i class="fas fa-user-edit"></i></a>
+            <a href="{{ route('users.edit', $usuario->id) }}" class="btn btn-success" data-toggle="tooltip" data-placement="top" title="Editar usuário"><i class="fas fa-user-edit"></i></a>
             </td>
         </tr>
         @endforeach

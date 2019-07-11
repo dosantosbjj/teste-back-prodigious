@@ -31,6 +31,9 @@
             <textarea name="descricao" class="form-control" id="userDescript" cols="40" rows="5">{{@$usuario->descricao}}</textarea>
         </div>
     </div>
-    <input type="submit" class="btn btn-primary" value="Salvar usuário" data-toggle="tooltip" data-placement="top" title="Clique para salvar o usuário editado">
+    <input type="submit" class="btn btn-primary" value="Salvar usuário" data-toggle="tooltip" data-placement="top" title="Clique para salvar o usuário editado.">
 </form>
+<div class="center">
+    <a href="{{route('users.index')}}" class="retorno"><i class="fas fa-arrow-left"></i>Voltar para página inicial</a>
+</div>
 @endsection

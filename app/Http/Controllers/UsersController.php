@@ -115,10 +115,6 @@ class UsersController extends Controller
         }
     }
 
-    public function look(){
-        return view('users.search');
-    }
-
     public function searchUser(Request $request){
         $keywords = $request->input('pesquisa');
         if(strlen($keywords) < 3){
